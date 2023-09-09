@@ -4,24 +4,25 @@ Air Cargo is an aviation company that provides air transportation services for p
 ### Project Objective:
 You, as a DBA expert, need to focus on identifying the regular customers to provide offers, analyze the busiest route which helps to increase the number of aircraft required and prepare an analysis to determine the ticket sales details. This will ensure that the company improves its operability and becomes more customer-centric and a favorable choice for air travel.
 ### Following operations should be performed:
-1. Create an ER diagram for the given airlines database.
-2. Write a query to create route_details table using suitable data types for the fields, such as route_id, flight_num, origin_airport, destination_airport, aircraft_id, and distance_miles. Implement the check constraint for the flight number and unique constraint for the route_id fields. Also, make sure that the distance miles field is greater than 0.
-3. Write a query to display all the passengers (customers) who have travelled in routes 01 to 25. Take data  from the passengers_on_flights table.
-4.Write a query to identify the number of passengers and total revenue in business class from the ticket_details table.
-5. Write a query to display the full name of the customer by extracting the first name and last name from the customer table.
-6. Write a query to extract the customers who have registered and booked a ticket. Use data from the customer and ticket_details tables.
-7. Write a query to identify the customer’s first name and last name based on their customer ID and brand (Emirates) from the ticket_details table.
-8. Write a query to identify the customers who have travelled by Economy Plus class using Group By and Having clause on the passengers_on_flights table.
-9. Write a query to identify whether the revenue has crossed 10000 using the IF clause on the ticket_details table.
-10. Write a query to create and grant access to a new user to perform operations on a database.
-11. Write a query to find the maximum ticket price for each class using window functions on the ticket_details table.
-12. Write a query to extract the passengers whose route ID is 4 by improving the speed and performance of the passengers_on_flights table.
-13. For the route ID 4, write a query to view the execution plan of the passengers_on_flights table.
-14. Write a query to calculate the total price of all tickets booked by a customer across different aircraft IDs using rollup function.
-15. Write a query to create a view with only business class customers along with the brand of airlines.
-16. Write a query to create a stored procedure to get the details of all passengers flying between a range of routes defined in run time. Also, return an error message if the table doesn't exist.
-17. Write a query to create a stored procedure that extracts all the details from the routes table where the travelled distance is more than 2000 miles.
-18. Write a query to create a stored procedure that groups the distance travelled by each flight into three categories. The categories are, short distance travel (SDT) for >=0 AND <= 2000 miles, intermediate distance travel (IDT) for >2000 AND <=6500, and long-distance travel (LDT) for >6500.
+1. Create an ER diagram for the given airlines database.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/14e8afbc-e0c0-4b36-8261-36f7e8d7a030)
+2. Write a query to create route_details table using suitable data types for the fields, such as route_id, flight_num, origin_airport, destination_airport, aircraft_id, and distance_miles. Implement the check constraint for the flight number and unique constraint for the route_id fields. Also, make sure that the distance miles field is greater than 0. ![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/2874690a-ebb0-4063-bb68-21f01d7c7abc)
+3. Write a query to display all the passengers (customers) who have travelled in routes 01 to 25. Take data  from the passengers_on_flights table. ![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/89910e5b-7972-4212-8631-2b5a66c198d8)
+4.Write a query to identify the number of passengers and total revenue in business class from the ticket_details table.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/c028bfe7-4e0a-47ce-bf0c-78013a7d3b23)
+5. Write a query to display the full name of the customer by extracting the first name and last name from the customer table.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/2d67837f-f640-4611-a98d-e3756ed4b7ae)
+6. Write a query to extract the customers who have registered and booked a ticket. Use data from the customer and ticket_details tables.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/8a7a4618-feb5-452e-9ff9-9108558d2db7)
+7. Write a query to identify the customer’s first name and last name based on their customer ID and brand (Emirates) from the ticket_details table. ![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/fb039e6a-e25a-4926-8869-f0cda1807256)
+8. Write a query to identify the customers who have travelled by Economy Plus class using Group By and Having clause on the passengers_on_flights table.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/47092580-8ee4-4a42-9f2a-6cb69b3395af)
+9. Write a query to identify whether the revenue has crossed 10000 using the IF clause on the ticket_details table.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/3940996f-7002-459d-a8eb-f639e2b874e9)
+10. Write a query to create and grant access to a new user to perform operations on a database.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/87fe6332-2715-4247-b9b9-a7d9c31a704d)
+11. Write a query to find the maximum ticket price for each class using window functions on the ticket_details table.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/55396f7d-c1a6-4c27-bd80-080c5cc9c7c7)
+12. Write a query to extract the passengers whose route ID is 4 by improving the speed and performance of the passengers_on_flights table.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/3bc3ae8a-7698-4029-b810-7c7ece02798a)
+13. For the route ID 4, write a query to view the execution plan of the passengers_on_flights table.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/19934a19-d106-432f-9803-17e4c467dab6)
+14. Write a query to calculate the total price of all tickets booked by a customer across different aircraft IDs using rollup function.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/1a7c30e3-4b19-4496-92cc-ba7216eeb24a)
+15. Write a query to create a view with only business class customers along with the brand of airlines.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/71415ef2-e437-4979-b877-046a280b6f21)
+16. Write a query to create a stored procedure to get the details of all passengers flying between a range of routes defined in run time. Also, return an error message if the table doesn't exist.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/7f58fe18-a50d-489f-8e3d-ccb8ff2161d6)
+17. Write a query to create a stored procedure that extracts all the details from the routes table where the travelled distance is more than 2000 miles.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/84fa7584-e6fe-4e00-844d-84855dbb0f62)
+18. Write a query to create a stored procedure that groups the distance travelled by each flight into three categories. The categories are, short distance travel (SDT) for >=0 AND <= 2000 miles, intermediate distance travel (IDT) for >2000 AND <=6500, and long-distance travel (LDT) for >6500.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/c7043d4c-290b-437d-8f1b-4638576a4ffe)
 19.Write a query to extract ticket purchase date, customer ID, class ID and specify if the complimentary services are provided for the specific class using a stored function in stored procedure on the ticket_details table.
-> **Condition**:If the class is Business and Economy Plus, then complimentary services are given as Yes, else it is No
-20. Write a query to extract the first record of the customer whose last name ends with Scott using a cursor from the customer table.
+> **Condition**:If the class is Business and Economy Plus, then complimentary services are given as Yes, else it is No ![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/68869d07-4cd2-4019-bab2-20c346ab678e)
+20. Write a query to extract the first record of the customer whose last name ends with Scott using a cursor from the customer table.![image](https://github.com/HarshalaShailani/AirCargo_SQL/assets/141167769/a34c0c65-ab2b-40b7-8862-50cb54135a2f)
+
